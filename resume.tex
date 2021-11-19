@@ -1,0 +1,39 @@
+\documentclass[letter,10pt]{article}
+\usepackage[utf8]{inputenc}
+
+%====================
+% File: resume.tex
+% Note: All formatting is done in TLCresume.st
+% No need to touch that file. All content is in sections.
+%====================
+
+\usepackage{TLCresume}
+
+\author{Timmy L. Chan} % Name Here
+\def\phone{(510)827-3323}
+\def\city{Chico, CA}
+\def\email{timmeh.chan@gmail.com}
+\def\LinkedIn{timmy-l-chan} % linkedin.com/in/______
+\def\github{TimmyChan} % github username
+\def\role{Data Scientist $\cdot$ Junior Developer} % JOB TITLE
+
+\begin{document}
+
+\import{sections/}{_header} 
+\import{sections/}{objective}
+
+\section{Skills}
+\import{sections/}{skills}
+
+\section{Technical Experience}
+\import{sections/}{experience}
+
+\section{Education \& Awards}
+\import{sections/}{education}
+
+\newpage
+\section{Activities}
+\import{sections/}{activities}
+
+
+\end{document}
