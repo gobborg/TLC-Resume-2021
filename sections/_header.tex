@@ -1,0 +1,26 @@
+% I edited the minipages to fit widths for if you have a long name and/or title
+%====================
+% Header: Contact
+%====================
+\begin{center}
+	\begin{minipage}[b]{.2\textwidth}
+	\raggedright
+	{\large \phone} \\ % PHONE
+	{\city} \\ % City
+	\href{mailto:\email}{\email} % EMAIL
+	\end{minipage}%
+	\begin{minipage}[b]{.6\textwidth}
+	\makeatletter
+	\centering {\huge \@author} \\
+	\makeatother
+    \vspace{.7em}
+    {\Large{\role}}
+	\end{minipage}%
+	\begin{minipage}[b]{.2\textwidth}
+	\raggedleft 
+	\href{https://github.com/\github}{GitHub: \github} \\% Portfolio 
+	\href{https://www.linkedin.com/in/\LinkedIn}{LinkedIn: \LinkedIn} % LinkedIn
+	\end{minipage}
+
+%{\color{highlight} \hrule}
+\end{center}
