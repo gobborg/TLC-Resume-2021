@@ -1,1 +1,1 @@
-I forked [Timmy Chan's](https://github.com/TimmyChan) resume template and made improvements for my purposes. Some of the changes are stylistic, such as using Computer Modern font and removing horizontal rules. 
+I forked [Timmy Chan's](https://github.com/TimmyChan) resume template and made improvements for my purposes. Some of the changes are stylistic, such as using Computer Modern font and removing horizontal rules.  
